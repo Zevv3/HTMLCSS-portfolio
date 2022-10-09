@@ -1,0 +1,93 @@
+body, html {
+    height: 100%;
+    margin: 0px;
+    background-color:beige
+}
+
+* {
+    box-sizing: border-box;
+}
+
+#greeting {
+    text-align: center;
+    position: absolute;
+    top:40%;
+    left:50%;
+    transform: translate(-50%,-50%)
+}
+
+#navigation {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 20px;
+    background-color:rgb(134, 108, 155);
+}
+
+#navigation a {
+    text-decoration: none;
+    color:rgb(190, 211, 113)
+}
+
+.text {
+    max-width:65%;
+    float:left;
+    padding:20px;
+    background-color:white;
+    height:75%;
+    margin:10px;
+    margin-left:3%;
+    margin-right:0.5%;
+}
+
+.pic {
+    display: inline;
+    width:20%;
+    float:right;
+    padding-top:20px;
+    padding-bottom:20px;
+    align-items:center;
+    background-color:white;
+    margin:10px;
+    padding:20px;
+    margin-right:3%;
+    margin-left:0.5%;
+    height:75%;
+}
+
+#isaac_pic {
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+    width:90%;
+}
+
+#profile {
+    text-align:center;
+    align-items:center;
+}
+
+.heading {
+    background-image: url("windows_landscape.jpg");
+    height: 20%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+    position:relative;
+}
+
+.list{
+    width:45%;
+}
+
+#my_fav_games{
+    float:left;
+}
+
+#my_fav_artists{
+    float:right;
+}
+
+#contact{
+    text-align:center;
+}
